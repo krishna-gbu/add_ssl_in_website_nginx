@@ -34,3 +34,18 @@ sudo apt install nginx -y
 curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - &&\
 sudo apt-get install -y nodejs
 ```
+
+```
+npm install
+npm run build
+```
+
+### copy build content to /var/www/html/
+```
+sudo cp -r build/* /var/www/html/
+```
+
+![image](https://user-images.githubusercontent.com/40553867/204119840-9012a6e3-15b9-4a81-8dda-862270c20c2c.png)
+
+![image](https://user-images.githubusercontent.com/40553867/204119989-bfab7bb4-177b-4e87-9dfd-759a65791034.png)
+
