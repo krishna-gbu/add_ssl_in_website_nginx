@@ -49,3 +49,29 @@ sudo cp -r build/* /var/www/html/
 
 ![image](https://user-images.githubusercontent.com/40553867/204119989-bfab7bb4-177b-4e87-9dfd-759a65791034.png)
 
+## add site to sites-available 
+
+```
+cd /etc/nginx/sites-available
+cp default krishnn.ml
+vi krishnn.ml
+```
+
+```
+ server_name krishnn.ml  www.krishnn.ml;
+```
+
+![image](https://user-images.githubusercontent.com/40553867/204121049-5e81dfc3-6ceb-404f-95bc-7a7188b133a3.png)
+
+![image](https://user-images.githubusercontent.com/40553867/204121061-52897b8e-0b9c-40cd-80d7-8269e8c9e091.png)
+
+```
+ln -s /etc/nginx/sites-available/krishnn.ml /etc/nginx/sites-enabled/
+```
+
+![image](https://user-images.githubusercontent.com/40553867/204121124-99862ed4-7646-4413-8863-5b376e67eb95.png)
+
+```
+systemctl restart nginx
+```
+![image](https://user-images.githubusercontent.com/40553867/204121151-4be9d2cb-a774-4c14-8269-f2c350e35eae.png)
