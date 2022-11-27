@@ -26,4 +26,11 @@ sudo apt install nginx -y
 
 ![image](https://user-images.githubusercontent.com/40553867/204119276-236c2921-0d05-41a3-bc90-8f1edcd5bd03.png)
 
+## add website 
+![image](https://user-images.githubusercontent.com/40553867/204119350-8b56ee18-eb3a-4bc7-acac-8f978c00924a.png)
 
+## install nodejs
+```
+curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - &&\
+sudo apt-get install -y nodejs
+```
