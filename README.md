@@ -75,3 +75,14 @@ ln -s /etc/nginx/sites-available/krishnn.ml /etc/nginx/sites-enabled/
 systemctl restart nginx
 ```
 ![image](https://user-images.githubusercontent.com/40553867/204121151-4be9d2cb-a774-4c14-8269-f2c350e35eae.png)
+```
+sudo apt install certbot python3-certbot-nginx -y
+```
+![image](https://user-images.githubusercontent.com/40553867/204121379-5df96e2b-852c-478f-b01a-5868eaba68f6.png)
+
+![image](https://user-images.githubusercontent.com/40553867/204121445-e7184ca0-0e35-4c36-9656-d4b0b20ab9f8.png)
+
+![image](https://user-images.githubusercontent.com/40553867/204121450-b9a0cc09-c400-4ebc-9438-62836ae978ff.png)
+
+## automatic run ssl in two times in a day
+![image](https://user-images.githubusercontent.com/40553867/204121512-034b25cb-baa2-423a-bad8-d2f59a46497f.png)
