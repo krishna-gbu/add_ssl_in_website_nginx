@@ -24,6 +24,8 @@ sudo apt install nginx -y
 ```
 ![image](https://user-images.githubusercontent.com/40553867/204119244-32b2fce0-c847-403f-b6b2-91f7de978d14.png)
 
+
+
 ![image](https://user-images.githubusercontent.com/40553867/204119276-236c2921-0d05-41a3-bc90-8f1edcd5bd03.png)
 
 ## add website 
@@ -88,3 +90,28 @@ sudo apt install certbot python3-certbot-nginx -y
 ![image](https://user-images.githubusercontent.com/40553867/204121512-034b25cb-baa2-423a-bad8-d2f59a46497f.png)
 
 ![image](https://user-images.githubusercontent.com/40553867/204121570-c835e7ae-4d7b-4983-ae1c-acd334c43f66.png)
+
+
+## use route 53
+### create hosted zone
+![image](https://user-images.githubusercontent.com/40553867/204256554-8fbcff81-6c1f-4544-88b7-c9b9a84b0014.png)
+
+![image](https://user-images.githubusercontent.com/40553867/204256703-33e336e5-db20-46ad-94f8-fd3e3722b8f3.png)
+![image](https://user-images.githubusercontent.com/40553867/204256750-7f34ef10-38b5-406c-85c9-38cf382ce461.png)
+
+![image](https://user-images.githubusercontent.com/40553867/204257812-2a55dd3e-11bf-473a-97a9-f9e85ab14524.png)
+
+## copy nameserver form route53 and paste to here
+![image](https://user-images.githubusercontent.com/40553867/204258127-3ca8a58e-6eda-4ffc-a502-b7982dffb770.png)
+
+![image](https://user-images.githubusercontent.com/40553867/204258863-08b886d4-bd74-4b21-b9a8-14b13fb1ddb6.png)
+
+##  create one more  record
+![image](https://user-images.githubusercontent.com/40553867/204259194-7bb3ceac-a729-4eb4-b72d-66727dbe1e2a.png)
+
+![image](https://user-images.githubusercontent.com/40553867/204259497-5676aa57-9726-4e0f-a7aa-462bc400a747.png)
+
+## now hit krishnn.ml or www.krishnn.ml
+
+![image](https://user-images.githubusercontent.com/40553867/204259728-250aa100-222d-4309-becc-6749e9853772.png)
+
